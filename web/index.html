@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kindoverse — Kindness starts with you | The SKP Sarvodaya Foundation</title>
+  <meta name="description" content="Kindoverse by The SKP Sarvodaya Foundation — Transparent Social Development, Crowdfunding, Corporate CSR Sponsorship, & Geo-Audited Impact Platform.">
+  <meta name="keywords" content="Kindoverse, The SKP Sarvodaya Foundation, SKP Foundation, Crowdfunding India, CSR Sponsorship, Social Impact, 80G Donation">
+  <meta name="author" content="The SKP Sarvodaya Foundation">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://kindoverse.in/">
+
+  <!-- Google Search & Browser Favicons (1:1 Square Multiples of 48px) -->
+  <link rel="icon" type="image/png" sizes="48x48" href="/icons/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/Icon-512.png">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+
+  <!-- iOS & Mobile PWA meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Kindoverse">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Open Graph / Social Sharing / Google Discover -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kindoverse — The SKP Sarvodaya Foundation">
+  <meta property="og:title" content="Kindoverse — Kindness starts with you | The SKP Sarvodaya Foundation">
+  <meta property="og:description" content="Transparent Social Development. Every Rupee Geo-Tagged & Milestone Audited across Education, Village Adoption, Afforestation, Clean Water, and Relief.">
+  <meta property="og:url" content="https://kindoverse.in/">
+  <meta property="og:image" content="https://kindoverse.in/logo.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="682">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kindoverse — Kindness starts with you">
+  <meta name="twitter:description" content="Transparent Social Development & Impact Funding Platform by The SKP Sarvodaya Foundation.">
+  <meta name="twitter:image" content="https://kindoverse.in/logo.png">
+
+  <!-- Google Search Organization & Website Logo Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://kindoverse.in/#organization",
+        "name": "Kindoverse",
+        "alternateName": "The SKP Sarvodaya Foundation",
+        "legalName": "The SKP Sarvodaya Foundation",
+        "url": "https://kindoverse.in/",
+        "sameAs": [
+          "https://kindoverse.in/",
+          "https://kindoverse-impact.web.app/"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kindoverse.in/icons/Icon-512.png",
+          "contentUrl": "https://kindoverse.in/icons/Icon-512.png",
+          "width": 512,
+          "height": 512,
+          "caption": "Kindoverse — Kindness starts with you"
+        },
+        "image": "https://kindoverse.in/logo.png",
+        "description": "Multi-Platform Impact Funding & Social Development Platform by The SKP Sarvodaya Foundation."
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kindoverse.in/#website",
+        "url": "https://kindoverse.in/",
+        "name": "Kindoverse",
+        "alternateName": "The SKP Sarvodaya Foundation",
+        "publisher": {
+          "@id": "https://kindoverse.in/#organization"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #FFFFFF;
+      overflow: hidden;
+    }
+    #initial-logo-loader {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFFFFF;
+      z-index: 9999;
+      transition: opacity 0.45s cubic-bezier(0.4, 0, 0.2, 1), transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    #initial-logo-loader video,
+    #initial-logo-loader img {
+      position: relative;
+      width: min(560px, 86vw);
+      max-width: min(560px, 86vw);
+      max-height: 440px;
+      object-fit: contain;
+      background-color: #FFFFFF;
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-select: none;
+      animation: dynamicLogoPop 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    @keyframes dynamicLogoPop {
+      0% {
+        opacity: 0;
+        transform: scale(0.94);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1.0);
+      }
+    }
+  </style>
+  <link rel="preload" as="video" href="kindo_logo.mp4?v=2" type="video/mp4">
+</head>
+<body>
+  <div id="initial-logo-loader">
+    <video
+      id="initial-logo-video"
+      src="kindo_logo.mp4?v=2"
+      autoplay
+      loop
+      muted
+      playsinline
+      webkit-playsinline
+      preload="auto"
+      aria-label="Kindoverse — Kindness starts with you"
+    ></video>
+  </div>
+  <script>
+    (function () {
+      var startTime = Date.now();
+      var minDisplayMs = 2200;
+      var video = document.getElementById('initial-logo-video');
+      if (video && typeof video.play === 'function') {
+        var playPromise = video.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(function () {});
+        }
+      }
+      function hideLoader() {
+        var loader = document.getElementById('initial-logo-loader');
+        if (loader) {
+          loader.style.opacity = '0';
+          loader.style.transform = 'scale(1.04)';
+          setTimeout(function () {
+            if (loader.parentNode) loader.parentNode.removeChild(loader);
+          }, 460);
+        }
+      }
+      window.addEventListener('flutter-first-frame', function () {
+        var elapsed = Date.now() - startTime;
+        var remaining = Math.max(0, minDisplayMs - elapsed);
+        setTimeout(hideLoader, remaining);
+      });
+    })();
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
